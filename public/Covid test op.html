@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+<h1>Covid Test OP Form </h1>
+<form action="action.html" method="GET">
+<div><h2><label for="fName"> First Name:</label>
+    <input type="text" id="fName" name="fName" placeholder="eg:Bhuvaneswari" required>
+</h2></div>
+
+    <div><h2>
+    <label for="lName"> Last Name:</label>
+    <input type="text" id="lName" name="lName" placeholder="eg:Kapuluru" required>
+</h2></div>
+
+
+<div><h2>
+<label for="Gender"> Gender:</label>
+
+<label for="Male"> Male</label>
+<input type="radio" id="Male" name="Gender" >
+<label for="Female"> Female</label>
+<input type="radio" id="Female" name="Gender" >
+</h2>
+</div>
+
+<div><h2>
+<label for="mail"> E-mail:</label>
+<input type="email" id="mail" name="mail" placeholder="Kapuluru@gmail.com"  required>
+</h2></div>
+
+<div> <h2><label for="choice">Choose your Nationality:</label>
+    <input list="options" id="choice" name="choice">
+    <datalist id="options">
+        <option value="India">
+        <option value="china">
+        <option value="Pakistan">
+        <option value="Srilanka">
+    </datalist></h2>
+    </div>
+    
+        <div><h2>
+        <label for="bdate"> DOB:</label>
+        <input type="date" id="bdate" name="bdate" required></h2></div>
+        <div><h2>
+        
+            <label for="quantity">Age:</label>
+            <input type="number" id="quantity" value="8" max="200" min="5" required>
+        </h2> </div>
+            
+        
+                <label for="quality"><h2> Symptoms:</h2></label>
+            <h4>
+                 <label for="cough:">Cough:</label>
+             <input type="checkbox" id="cough"  name="quality"><br/>
+                <label for="cold"> Cold</label>
+            <input type="checkbox" id="cold"  name="cold"><br/>
+            <label for="Fever"> Fever</label>
+            <input type="checkbox" id="Fever"  name="Fever"><br/>
+            <label for="Vomit">Vomit</label>
+            <input type="checkbox" id="Vomit"  name="Vomit">   <br/>
+            <label for="Feeling dizzy ">Feeling dizzy</label>
+            <input type="checkbox" id="Feeling dizzy"  name="Feeling dizzy"required> 
+        </h4>  
+        
+            
+            <div><h2>
+                <label for="tplace"> Location  For Testing:</label>
+                <select id="tplace" name="tplace" required>
+                    <option>gudur</option>
+                    <option>Hyderabad</option>
+                    <option>kalahastri</option>
+                   <option>Srikakulam</option>
+                   <option>Tirupati</option>
+                   <option>vijayawada</option>
+                   <option>vizag</option>
+                </h2>
+            </div>
+     
+    
+    
+        <div><br/><h2>
+            <input type="reset"></h2>
+            </div>
+            <div>
+            <h2>
+                <input type="submit"></h2>
+                </div>
+        
+</form>
+</body>
+</html>
